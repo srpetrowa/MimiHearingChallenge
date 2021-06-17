@@ -1,14 +1,13 @@
 # tooling-karate-template
 
-Karate Boilerplate for API testing. This template uses Black Belt Library in order to create reports via Cucumber. 
-This Boilerplate is set as a Kotlin project. 
+Karate Template for API testing. This Template is set up as a Gradle Kotlin project. 
 
 ## Setup
 There are 3 main files that need to be configurated for your special needs: 
 
 ### Setup build.gradle.kts
 
-If you do not want to use the Black Belt Library or you want to change its version, you need to edit the added dependancy: 
+If you want to use any specific libraries or you want to change their version, you need to edit the added dependancy: 
 ```
 dependencies {
     testImplementation("....")
